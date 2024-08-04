@@ -5,6 +5,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Dancing+Script:wght@400..700&family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
     <style>
         .heading{
             text-align: center;
@@ -24,17 +27,174 @@
         .design1{
             text-align:center;
             color: #d72f67;
-            font-size: 50px;
+            font-size: 60px;
+            font-family:Dancing Script;
+        }
+        .class1{
+        height: 350px;
+        width:270px;
+        margin:20px 40px;
+        padding:20px auto;
+        border: 5px solid black;
+        border-color: #ebadc1;
+        background-color: #faeaef;
+        border-radius: 10px;
+        box-shadow: -6px 6px 15px 3px black;
+        }
+        .img1{
+            padding: 20px 60px;
+            
+
+        }
+        .text{
+            text-align: center;
+            font-family:Averia Serif Libre;
+            font-size: 30px;
+            margin: 0;
+        }
+        .paregraph{
+            font-family: dancing script;
+            text-align: center;
+            font-size: 30px;
+        }
+        .class1:hover{
+            box-shadow: -6px 6px 20px 3px#e283a1;
+            transition: 1s;
+            background-color: white;
+        }
+        .class-container{
+            flex-direction: row;
+            display: flex;
+            margin: 20px;
+            flex-direction: space-evenly;
         }
 
-    
+        .class2{
+        height: 370px;
+        width:270px;
+        margin:20px 40px;
+        padding:20px auto;
+        border: 5px solid black;
+        border-color: #ebadc1;
+        background-color:white;
+        border-radius: 10px;
+        box-shadow: -6px 6px 15px 3px black;
+        }
+        .img2{
+            padding: 20px 60px;
+            height:150px;
+            width:200px;
+            padding:20px 20px;
+            
+
+        }
+        .text2{
+            text-align: center;
+            font-family:Averia Serif Libre;
+            font-size: 30px;
+            margin: 0;
+        }
+        .paregraph2{
+            
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        .class2:hover{
+            box-shadow: -6px 6px 20px 3px#e283a1;
+            transition: 1s;
+            background-color: white;
+        }
+        .class-container2{
+            flex-direction: row;
+            display: flex;
+            margin: 20px;
+            flex-direction: space-evenly;
+        }
+        .btn{
+            text-align:center;
+            font-size: 20px;
+            padding:10px 20px;
+            margin:0px 60px;
+            border-radius: 10px;
+            background-color: #edd2da;
+            box-shadow: 5px 5px 15px 2px rgb(28, 28, 28);
+            
+        }
+        .btn:hover{
+            box-shadow: 5px 5px 15px 2px black;
+
+        }
     </style>
 </head>
 <body>
-    <h1 class="heading">Welcomes to sangamner fruits shop</h1>
+    <h1 class="design1">Welcomes to sangamner fruits shop</h1>
     <h1 class="design">==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==</h1>
     <img class="img" src="./image/fruit.jpg"/>
     <h2 class="design1">Shop specialty</h2>
+
+    <div class="class-container">
+
+        <div class="class1">
+            <img class="img1" src="./image/freshfood.png"/>
+            <h2 class="text">Fresh Food</h2>
+            <p class="paregraph">The food is fresh and testy...!</p>
+        </div>
+        <div class="class1">
+            <img class="img1" src="./image/online order.png"/>
+            <h2 class="text">Online Order</h2>
+            <p class="paregraph">The online order is avileble...!</p>
+        </div>
+
+        <div class= "class1" >
+            <img class="img1" src="./image/sale.png"/>
+            <h2 class="text">Offer</h2>
+            <p class="paregraph">25 % off in each food...!</p>
+        </div>
+
+        <div class="class1">
+            <img class="img1" src="./image/freshfood.png"/>
+            <h2 class="text">Fresh Food</h2>
+            <p class="paregraph">The food is fresh and testy...!</p>
+        </div>
+
+    </div>
+    <h1 class="design1">Fruits Shop</h1>
+
+    <div class="class-container2">
+
+        <div class="class2">
+            <img class="img2" src="./image/mango.avif"/>
+            <h2 class="text2">Mango</h2>
+            <p class="paregraph2"><b>Price:</b> <del>Rs150</del> Rs100</p>
+            <button class="btn"><b>By Now</b></button>
+        </div>
+        <div class="class2">
+            <img class="img2" src="./image/orange.avif"/>
+            <h2 class="text2">Orange</h2>
+            <p class="paregraph2"><b>Price:</b> <del>Rs200</del> Rs150</p>
+            <button class="btn"><b>By Now</b></button>
+        </div>
+
+        <div class= "class2" >
+            <img class="img2" src="./image/papaya.avif"/>
+            <h2 class="text2">Papaya</h2>
+            <p class="paregraph2"><b>Price:</b> <del>Rs100</del> Rs70</p>
+            <button class="btn"><b>By Now</b></button>
+        </div>
+
+        <div class="class2">
+            <img class="img2" src="./image/greps.jpg"/>
+            <h2 class="text2">Greps</h2>
+            <p class="paregraph2"><b>Price:</b> <del>Rs100</del> Rs80</p>
+            <button class="btn"><b>By Now</b></button>
+        </div>
+
+    </div>
+    <p class="text2">Address:sangamner siddhi market,galii no 2</p>
+    <p class="text2">Mail:shindetejal@005@gmail.com</p>
+    <p class="text2">Mobile No:9022845841</p>
+    <h1 class="design1">!....Thank You....!</h1>
 
     
 </body>
